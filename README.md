@@ -1,4 +1,6 @@
-# Angular2form
+# Angular 2 Form
+
+By: Jon Bonso
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 

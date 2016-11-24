@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
-
-
-  //1. 
-  import {Stock} from './stock';
+import {Stock} from './stock';
 
 @Component({
   selector: 'app-root',
@@ -12,11 +9,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
 
-  //2.
-    submitted = false;
-
-  //3. 
-    newStock = new Stock(0, '', '', 0,'');
+   submitted = false;
+  newStock = new Stock(0, '', '');
 
   onSubmit(){
     this.submitted = true;
@@ -24,6 +18,6 @@ export class AppComponent {
 
   cancel(){
     this.submitted = false;
-    this.newStock = new Stock(0, '', '', 0,'');
+    this.newStock = new Stock(0, '', '');
   }
 }
